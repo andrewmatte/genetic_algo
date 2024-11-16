@@ -14,7 +14,7 @@ If you have 80 columns and you know you only want to keep 20, you would have to 
 
 ## OK, so it cuts out a lot of unpromissing potential solutions. Doesn't that mean it's probabilistic?
 
-Yes and that's a good thing. If you could execute one billion possible solutions per second, it would still take you 1 billion seconds, it would still take you over 100 years. This algorithm will likely converge on a solution in about an hour on a 2017 bottom of the line laptop.
+Yes and that's a good thing. If you could execute one billion iterations per second, it would still take you 3.5 billion seconds, which is over 100 years. This algorithm will likely converge on a solution in about an hour on a 2017 bottom of the line laptop. A real-world use case was 65 choose 12 in 45 minutes, down from 120 years.
 
 ## Nice. But your code is a mess.
 
